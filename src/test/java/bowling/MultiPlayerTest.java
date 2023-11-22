@@ -17,7 +17,7 @@ class MultiPlayerTest {
 	}
 
     @Test
-    void test2tourPlusScore(){
+    void testScore(){
         PartieMultiJoueurs partie = new PartieMultiJoueurs();
         String [] monTableau = {"Pierre", "Paul"};
         assertEquals(partie.demarreNouvellePartie(monTableau),"Prochain tir : joueur Pierre, tour n° 1, boule n° 1");
